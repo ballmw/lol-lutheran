@@ -49,7 +49,7 @@ gem 'refinerycms-inquiries',    '~> 0.9'
 # gem 'refinerycms-news',         '~> 1.0'
 # gem 'refinerycms-portfolio',    '~> 0.9.9'
 gem 'refinerycms-theming',      '~> 0.9.9'
-# gem 'refinerycms-search',       '~> 0.9.8'
+gem 'refinerycms-search',       '~> 0.9.8'
 # gem 'refinerycms-blog',         '~> 1.1'
 # gem 'refinerycms-page-images',  '~> 1.0'
 
