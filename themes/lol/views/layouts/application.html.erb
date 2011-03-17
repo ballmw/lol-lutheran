@@ -2,6 +2,12 @@
 <html>
   <%= render :partial => "/shared/head", :locals => {:theme => true} %>
   <body>
+<% form_tag search_url do -%>
+  <%= text_field_tag :query, {}, {:type => "search",
+                     :placeholder => "Search site for...", 
+                     :value => (params[:query] if params[:query])} %>
+  <%= submit_tag 'Go' %>
+<% end %>
     <%= render :partial => "/shared/site_bar" %>
     <div id='page_container'>
       <div id='page'>
