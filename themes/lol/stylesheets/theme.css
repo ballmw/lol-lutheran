@@ -1,0 +1,22 @@
+body
+{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
+  color:black;
+}
+#header
+{
+  color:white;
+  background-color:black;
+}
+
+#search
+{
+  position:absolute;
+  right:5px;
+}
+#footer
+{
+  color:white;
+  background-color:black;
+}
