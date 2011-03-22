@@ -5,12 +5,18 @@ body
   color:black;
   background-image:url('images/background.jpg');
   background-repeat:repeat-y;
+  background-color:#1ff11f;
 }
 #header
 {
-  color:white;
-  background-color:black;
+  color:black;
+  background-color:white;
   padding:1em;
+}
+#content
+{
+  color:black;
+  background-color:white;
 }
 
 #search
@@ -20,7 +26,7 @@ body
 }
 #footer
 {
-  color:white;
-  background-color:black;
+  color:black;
+  background-color:white;
   padding:1em;
 }
