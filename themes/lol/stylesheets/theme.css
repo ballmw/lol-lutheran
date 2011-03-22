@@ -62,12 +62,26 @@ a {color:black;}
 {
   color:white;
 }
- 
+
+#header #menu ul li a {
+			display:block; 
+			padding:8px 5px 0 5px; 
+			font-weight:700;  
+			height:23px; 
+			text-decoration:none; 
+			color:#fff; 
+			text-align:center; 
+			color:#333;
+} 
+
 #header #menu ul li
 {
   float:left;
-  background-color:black;
-
+  width:100px; 
+  background:#ccc; 
+  position:relative;
+  z-index:500; 
+  margin:0 1px;
   
 }
 
@@ -76,14 +90,25 @@ a {color:black;}
   display:none;
   float:none;
   position:absolute;
-  
+  margin:0 0 0 -1px; 
+  padding:0;
+  left:0;  
 }
 
 #header #menu ul li ul li
 {
   display: block;
-  float:none;
+  width:100px; 
+  float:left; 
+	border-top:1px solid #fff;
 }
+
+#header #menu ul li ul li a {
+			display:block;  
+			height:15px;
+			padding: 8px 5px; 
+			color:#666;
+		}
 
 #search_results
 {
