@@ -3,30 +3,84 @@ body
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.1em;
   color:black;
-  background-image:url('images/background.jpg');
-  background-repeat:repeat-x;
-  background-color:#1ff11f;
+  background-color:#ddd;
+}
+a {color:black;}
+#page
+{
+  background-color:white;
+  margin-left:60px;
+  margin-right:60px;
+  border-left:1px solid #333;
+  border-right:1px solid #333;
+}
+#page form
+{
+  position:relative;
+  top:50px;
+  left:800px;
 }
 #header
 {
   color:black;
-  background-color:white;
-  padding:1em;
+  background-color:white;  
+  padding-left:10px;
+  padding-right:10px;
 }
-#content
+#body
 {
   color:black;
   background-color:white;
+  padding-left:10px;
+  padding-right:10px;
 }
 
 #search
 {
-  position:absolute;
-  right:5px;
+  float:right;
 }
 #footer
 {
   color:black;
-  background-color:white;
+  background-color:#555;
   padding:1em;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+#footer ul li ul
+{
+  float:none;
+}
+#footer #menu ul li ul li
+{
+  display: block;
+  float:none;
+}
+
+#header #menu *
+{
+  color:white;
+}
+ 
+#header #menu ul li
+{
+  float:left;
+  background-color:black;
+
+  
+}
+
+#header #menu ul li ul
+{
+  display:none;
+  float:none;
+  position:absolute;
+  
+}
+
+#header #menu ul li ul li
+{
+  display: block;
+  float:none;
 }
