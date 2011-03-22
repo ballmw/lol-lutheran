@@ -4,7 +4,7 @@ body
   font-size: 1.1em;
   color:black;
   background-image:url('images/background.jpg');
-  background-repeat:repeat-y;
+  background-repeat:repeat-x;
   background-color:#1ff11f;
 }
 #header
