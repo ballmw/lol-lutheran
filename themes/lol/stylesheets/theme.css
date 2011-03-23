@@ -5,6 +5,18 @@ body
   color:black;
   background-color:#ddd;
 }
+h1
+{
+  margin:.3em; 0px;
+}
+#body_content_left
+{
+  width:590px;
+}
+#body_content_right
+{
+  width:390px;
+}
 a {color:black;}
 #page
 {
