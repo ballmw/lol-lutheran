@@ -20,9 +20,7 @@ h1
 a {color:black;}
 #page
 {
-  background-color:white;
-  margin-left:60px;
-  margin-right:60px;
+  background-color:white;  
   border-left:1px solid #333;
   border-right:1px solid #333;
 }
