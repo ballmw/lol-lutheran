@@ -153,7 +153,7 @@ DEPENDENCIES
   rails (= 3.0.5)
   refinerycms (= 0.9.9.10)
   refinerycms-i18n (~> 0.9.9.14)
-  refinerycms-inquiries (~> 0.9)
+  refinerycms-inquiries (~> 0.9.9.9)
   refinerycms-search (~> 0.9.8)
   refinerycms-theming (~> 0.9.9)
   sqlite3
